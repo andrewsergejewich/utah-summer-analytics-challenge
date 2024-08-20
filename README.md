@@ -1,2 +1,26 @@
-# utah-summer-analytics-challenge
-This repository contains the data and code used to perform some of the analysis for my submission to the Utah Hockey Club's Summer Analytics Challenge.
+# Utah Hockey Club Summer Analytics Challenge
+Welcome to my Utah Hockey Club Summer Data Analytics Challenge submission. This repository contains all the data and analysis performed for my submission to the Utah Hockey Club's Summer Analytics Challenge and can be used to supplement to final report.
+
+## Repository Structure
+The repository contains the following folders which are covered in more detail below:
+* __data/__: Contains the raw data files in `.csv` format.
+* __regression_analysis/__: Contains Python Notebooks (`.ipynb files`) used to perform regression analysis on the data.
+
+## Contents
+
+### Data
+The `data` folder contains the following `.csv` files:
+* `NHL_PenaltyKilling_2021_22.csv`: Contains team data for the 2021-2022 NHL season.
+* `NHL_PenaltyKilling_2022_23.csv`: Contains team data for the 2022-2023 NHL season.
+* `NHL_PenaltyKilling_2023_24.csv`: Contains team data for the 2023-2024 NHL season.
+* `NHL_PenaltyKilling_Full.csv`: A combination of the `.csv` files aboves.
+
+### regression_analysis
+The `regression_analysis` folder contains the following `.ipynb` files:
+* `Regression_Analysis_NHL_2021_2022_Dataset.ipynb`: Contains the regression analysis performed on the data from the 2021-2022 NHL season.
+* `Regression_Analysis_NHL_2022_2023_Dataset.ipynb`: Contains the regression analysis performed on the data from the 2022-2023 NHL season.
+* `Regression_Analysis_NHL_2023_2024_Dataset.ipynb`: Contains the regression analysis performed on the data from the 2023-2024 NHL season.
+* `Regression_Analysis_NHL_Full_Dataset.ipynb`: Contains the regression analysis performed on the full set of data.
+
+## Results
+The results of the analysis are summarized in `report.pdf` which can be found in the `folder_name` folder.
