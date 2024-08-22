@@ -3,10 +3,16 @@ Welcome to my Utah Hockey Club Summer Data Analytics Challenge submission. This 
 
 ## Repository Structure
 The repository contains the following folders which are covered in more detail below:
+* __correlation_analysis/__: Contains the `.xlsx` file used for data cleaning and correlation analysis.
 * __data/__: Contains the raw data files in `.csv` format.
 * __regression_analysis/__: Contains Python Notebooks (`.ipynb files`) used to perform regression analysis on the data.
+* __report/__: Contains the report that was submit to the Utah HC in `.pdf` form. 
 
 ## Contents
+
+### correlation_analysis
+The `correlation_analysis` folder contains the following file:
+* `NHL_PenaltyKilling_Dataset.xlsx`: Contains the team data used in the analysis, as well as calculated averages, standard deviations, variances, and key correlation values.
 
 ### Data
 The `data` folder contains the following `.csv` files:
@@ -22,5 +28,6 @@ The `regression_analysis` folder contains the following `.ipynb` files:
 * `Regression_Analysis_NHL_2023_2024_Dataset.ipynb`: Contains the regression analysis performed on the data from the 2023-2024 NHL season.
 * `Regression_Analysis_NHL_Full_Dataset.ipynb`: Contains the regression analysis performed on the full set of data.
 
-## Results
-The results of the analysis are summarized in `report.pdf` which can be found in the `folder_name` folder.
+### report
+The `report` folder contains the following file:
+* `TheArtOfPenaltyKilling.pdf`: Contains a copy of the report that was submit to the Utah HC as my submission to the Summer Analytics Challenge. The raw file can be downloaded for viewing.
